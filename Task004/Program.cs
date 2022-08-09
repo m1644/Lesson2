@@ -3,7 +3,7 @@
 
 Console.WriteLine("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
-if ((number % 7) == 0 && (number % 23) == 0) // (&& = И, // = ИЛИ)
+if ((number % 7) == 0 && (number % 23) == 0) // (&& = И, || = ИЛИ)
 Console.WriteLine("Число кратно числу 7 и 23.");
 else
 {
